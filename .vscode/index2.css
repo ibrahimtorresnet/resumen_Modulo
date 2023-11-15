@@ -1,0 +1,271 @@
+:root{
+
+    --color-barra-lateral: rgb(7, 0, 0);
+    --color-texto:rgb(255,255,255 );
+    --color-texto-menu:rgb(134,136,144);
+    
+    --color-boton:rgb(0,0,0);
+    --color-boton-texto:rgb(255,255,255);
+    --color-munu-hover:rgb(18, 190, 233);
+    --menu-color-texto-hover:rgb(255,255,255);
+    
+    
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+
+    body{
+        margin: 0;
+        background-color: white;
+        
+    }
+
+    .barra-lateral{
+    
+        width: 170px;
+        height: 100%;
+        padding: 20px 10px;
+        background-color: rgb(0, 0, 0);
+        transition: width 0.4s ease, background-color 0.3s ease,left 0.5s ease;
+        overflow: hidden;
+        color:black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      position: fixed;
+      margin: 0;
+      z-index: 50;
+      
+     
+
+     
+
+        
+    }  
+    .lo{margin-right: 20px;}
+     
+
+    header img{
+        width: 25px;
+        margin-left: 4.5px;
+    }
+    hr{margin: 15px;}
+    .barra-lateral .nombre-pagina{
+   
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+     
+    .barra-lateral .nombre-pagina .icononube{
+    
+        min-width: 50px;
+        font-size:15px;
+        cursor: pointer;
+        color:white;
+    
+    }
+    .barra-lateral .nombre-pagina span{
+        margin-left: 10px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .nombre-pagina img {
+        width: 50px;
+    }
+
+
+    .barra-lateral  span{
+       
+      font-size: 18px;
+      text-align: left;
+      width: 100px;
+        text-align: left;
+        white-space: nowrap;
+        opacity: 1;
+        transition:opacity 0.5 ease,width 0.5s ease;
+        color: white
+    }
+    .mini-barra-lateral{
+        width: 74px;
+    
+     }
+
+     .barra-lateral span.oculto{
+        opacity: 0;
+        width: 0;
+    }
+
+    .barra-lateral .boton{
+
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       border: none;
+        border-radius: 10px;
+        background-color:red;
+        color: var(--color-boton-texto);
+        margin-bottom: 20px;
+    }
+    
+    .barra-lateral .boton .iconoboton{
+
+      
+        min-width: 50px;
+        font-size: 25px;
+    }
+
+    .barra-lateral .navegacion li{ 
+         
+
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: column;
+
+    }
+
+    
+
+
+    .barra-lateral .navegacion a{ 
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+    
+    }
+
+    .barra-lateral .navegacion .iconoboton{
+
+        border: 2px solid blue;
+        min-width: 50px;
+        font-size: 20px;
+    }
+
+    .barra-lateral .navegacion a:hover{
+
+    color: var(--menu-color-texto-hover);
+     background-color: rgb(43, 43, 43);
+        
+    }
+
+
+    
+
+ main a{color:  red;}
+
+       
+        
+    
+
+        .boton{background-color: aqua;}
+
+        .barra-lateral .navegacion{
+
+            height: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+ 
+    
+    main{margin-left: 120px;
+        transition: margin-lett 0.5s ease;
+padding:30px 80px;
+color: black;  
+position: relative;
+}
+
+    main.min-main{
+        margin-left: 
+        80px;
+        transition: margin-letf 0.5s ease;
+    padding: 80px;
+position: relative;}
+   footer{position: relative;
+  
+    
+    margin-left: 170px;
+    padding:20px; transition: margin-letf 0.5s ease;
+    background-color: rgb(5, 4, 4);
+    color: white;
+    
+    
+   }
+   .hero{ background-color: rgb(156, 142, 142);
+    transition: margin-letf 0.5s ease;
+    background-color: rgb(5, 4, 4);;
+}
+   
+
+   .min-footer{
+    margin-left: 
+    70px;
+    transition: margin-letf 0.5 ease;
+}
+   
+   
+   
+   .footer{
+
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+   }
+
+   .redes a{
+     margin: 0 7px;
+}
+.footer .nombre{
+    margin-left: 40%;
+}
+   
+
+    /*main{margin-left: 250px;
+       
+        transition: margin-letf 0.5s;
+        background-color: purple;
+        
+
+    }
+
+   
+    main.min-main{
+        margin-left: 80px;
+        padding: 35px 150px;
+    }*/
+    h1{text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    h2{text-align: center;
+    margin: 2px;}
+    p{margin: 2px;
+        padding: 10px;}
+        h3{margin: 2px;
+        padding-left: 10px;}
+        ul{ padding: 10px;}
+
+        h4{margin: 2px;
+            padding-left: 10px;}
+
+            main img{width: 100%;
+            margin-bottom: 25px;
+         margin-top: 25px;}
+
